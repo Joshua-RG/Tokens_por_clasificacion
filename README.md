@@ -14,6 +14,9 @@ Este dataset contiene información detallada sobre varias criptomonedas, incluye
 | **TwentyFour_Hour_Percentage**      | Cambio porcentual en el precio del token en las últimas 24 horas.                                             |
 | **Seven_Days_Percentage**           | Cambio porcentual en el precio del token en los últimos 7 días.                                                |
 | **Market_Cap**                      | Capitalización de mercado del token, calculada como el precio del token multiplicado por el suministro circulante. |
+| **URL**                             | Dirección web del recurso en la plataforma CoinMarketCap  |
+|**socialNetworks**| Lista de todas las redes sociales asociadas al token |
+|**socialNetworksCount**| Suma del total de redes sociales asociadas al token |
 | **Volume_24h**                      | Volumen total de transacciones del token en las últimas 24 horas.                                             |
 | **Circulating_Supply**              | Cantidad de tokens que están actualmente en circulación y disponibles para el comercio.                        |
 | **Total_Supply**                    | Total de tokens que existen, incluyendo los que están en circulación y los que no.                             |
