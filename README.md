@@ -30,6 +30,7 @@ Este dataset contiene información detallada sobre varias criptomonedas, incluye
 | **Halving_3_Plus250_RankIndex**     | Ranking del token 250 días después del tercer halving de Bitcoin, indicado como un índice para concatenar.                     |
 | **Halving_4_RankIndex**             | Ranking del token durante el cuarto halving de Bitcoin, indicado como un índice para concatenar.                                |
 | **Capture_Date**                    | Fecha en la que se capturaron los datos de las criptomonedas.                                                 |
+| **halving_survive**                    | Indicdor si vivio un halving anteriormente                                                 |
 
 
 ## Estructura del Dataset para Halving
