@@ -36,13 +36,13 @@ Este dataset contiene información detallada sobre varias criptomonedas, incluye
 ## Estructura del Dataset para Halving
 Fecha de extracción para los distintas fechas (Más proximas al halving):
 
-halving_1.csv:  (28/04/2013)
+halving_1.csv:  (28/04/2013)  |    
 halving_1._plus250.csv:  (11/08/2013)
 
-halving_2.csv: (03/07/2016) 
+halving_2.csv: (03/07/2016) |  
 halving_2._plus250.csv: (19/03/2017)  
 
-halving_3.csv: (03/05/2020) 
+halving_3.csv: (03/05/2020)  |  
 halving_3._plus250.csv:  (10/01/2021) 
 
 halving_4.csv: (21/03/2024)
