@@ -20,17 +20,17 @@ Este dataset contiene información detallada sobre varias criptomonedas, incluye
 | **Volume_24h**                      | Volumen total de transacciones del token en las últimas 24 horas.                                             |
 | **Circulating_Supply**              | Cantidad de tokens que están actualmente en circulación y disponibles para el comercio.                        |
 | **Total_Supply**                    | Total de tokens que existen, incluyendo los que están en circulación y los que no.                             |
-| **Max_Supply**                      | Máximo número de tokens que se crearán, si es que hay un límite definido para el token.                       |
-| **Class**                           | Clasificación del token en una categoría específica (por ejemplo, IA, Gaming, RWA, Meme).                       |
-| **Halving_1_RankIndex**             | Ranking del token durante el primer halving de Bitcoin, indicado como un índice para concatenar.                                |
-| **Halving_1_Plus250_RankIndex**     | Ranking del token 250 días después del primer halving de Bitcoin, indicado como un índicepara concatenar.                     |
-| **Halving_2_RankIndex**             | Ranking del token durante el segundo halving de Bitcoin, indicado como un índicepara concatenar.                               |
-| **Halving_2_Plus250_RankIndex**     | Ranking del token 250 días después del segundo halving de Bitcoin, indicado como un índice para concatenar.                    |
-| **Halving_3_RankIndex**             | Ranking del token durante el tercer halving de Bitcoin, indicado como un índice para concatenar.                                |
-| **Halving_3_Plus250_RankIndex**     | Ranking del token 250 días después del tercer halving de Bitcoin, indicado como un índice para concatenar.                     |
-| **Halving_4_RankIndex**             | Ranking del token durante el cuarto halving de Bitcoin, indicado como un índice para concatenar.                                |
+| **Max_Supply**                      | Máximo número de tokens que se crearán, si es que hay un límite definido para el token. (Valores nulos significan que el máximo no esta verificado o no tiene limite)                     |
+| **Class**                           | Clasificación del token en una categoría específica (0: IA, 1: Gaming, 2: RWA, 3: Meme).                       |
+| **Halving_1_RankIndex**             | Ranking del token durante el primer halving de Bitcoin, indicado como un índice para concatenar. (Valores nulos significan que no vivieron esa fecha)                                |
+| **Halving_1_Plus250_RankIndex**     | Ranking del token 250 días después del primer halving de Bitcoin, indicado como un índicepara concatenar. (Valores nulos significan que no vivieron esa fecha)                       |
+| **Halving_2_RankIndex**             | Ranking del token durante el segundo halving de Bitcoin, indicado como un índicepara concatenar. (Valores nulos significan que no vivieron esa fecha)                                 |
+| **Halving_2_Plus250_RankIndex**     | Ranking del token 250 días después del segundo halving de Bitcoin, indicado como un índice para concatenar. (Valores nulos significan que no vivieron esa fecha)                      |
+| **Halving_3_RankIndex**             | Ranking del token durante el tercer halving de Bitcoin, indicado como un índice para concatenar. (Valores nulos significan que no vivieron esa fecha)                                  |
+| **Halving_3_Plus250_RankIndex**     | Ranking del token 250 días después del tercer halving de Bitcoin, indicado como un índice para concatenar. (Valores nulos significan que no vivieron esa fecha)                        |
+| **Halving_4_RankIndex**             | Ranking del token durante el cuarto halving de Bitcoin, indicado como un índice para concatenar. (Valores nulos significan que no vivieron esa fecha)                                 |
 | **Capture_Date**                    | Fecha en la que se capturaron los datos de las criptomonedas.                                                 |
-| **halving_survive**                    | Indicdor si vivio un halving anteriormente                                                 |
+| **halving_survive**                    | Indicdor si vivio un halving anteriormente. (0:No vivio, 1: Si vivio)                                            |
 
 
 ## Estructura del Dataset para Halving
@@ -41,14 +41,14 @@ Este dataset contiene información detallada sobre varias criptomonedas, incluye
 | **Name**                      | Nombre completo del token o criptomoneda.                                                                       |
 | **Symbol**                    | Símbolo o abreviatura del token (por ejemplo, BTC para Bitcoin).                                               |
 | **Price**                     | Precio actual del token en el mercado, expresado en la moneda correspondiente (por ejemplo, USD).              |
-| **Volume_24h**               | Volumen total de transacciones del token en las últimas 24 horas.                                             |
+| **Volume_24h**               | Volumen total de transacciones del token en las últimas 24 horas. (Valores nulos significan que no se registraron, comunmente en primeros halving)                                             |
 | **Market_Cap**               | Capitalización de mercado del token, calculada como el precio del token multiplicado por el suministro circulante. |
 | **Circulating_Supply**       | Cantidad de tokens que están actualmente en circulación y disponibles para el comercio.                        |
 | **Total_Supply**             | Total de tokens que existen, incluyendo los que están en circulación y los que no.                             |
-| **Max_Supply**               | Máximo número de tokens que se crearán, si es que hay un límite definido para el token.                       |
-| **Percent_Change_1h**        | Cambio porcentual en el precio del token en la última hora.                                                    |
-| **Percent_Change_24h**       | Cambio porcentual en el precio del token en las últimas 24 horas.                                             |
-| **Percent_Change_7d**        | Cambio porcentual en el precio del token en los últimos 7 días.                                                |
+| **Max_Supply**               | Máximo número de tokens que se crearán, si es que hay un límite definido para el token. (Valores nulos significan que el máximo no esta verificado o no tiene limite)                       |
+| **Percent_Change_1h**        | Cambio porcentual en el precio del token en la última hora. (Valores nulos significan que no se registraron, comunmente en primeros halving)                                                        |
+| **Percent_Change_24h**       | Cambio porcentual en el precio del token en las últimas 24 horas. (Valores nulos significan que no se registraron, comunmente en primeros halving)                                               |
+| **Percent_Change_7d**        | Cambio porcentual en el precio del token en los últimos 7 días. (Valores nulos significan que no se registraron, comunmente en primeros halving)                                                    |
 | **Date_Added**               | Fecha en la que se añadió el token al mercado o a la base de datos.                                            |
 | **Capture_Date**             | Fecha en la que se capturaron los datos de las criptomonedas.                                                 |
 
